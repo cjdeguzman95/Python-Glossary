@@ -1,4 +1,4 @@
-# The following test bed checks that all the methods from all the programmes work as they should
+# The following test bed checks that the methods from all the programmes work as they should
 
 import unittest
 from person import Person
