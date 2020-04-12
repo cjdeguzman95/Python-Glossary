@@ -9,5 +9,5 @@ It is comprised of 4 files: person.py, student.py, modules.py and batch.py. The 
 The Investors worksheet required cleaning to so that there was only one column with the unique values. For the purpose of this work and to demonstrate the use of the xlsx library, the cleaned data is inserted into a new workbook.
 
 ## 3. Other
-##### This folder contains examples of simple Python code
+##### This folder contains examples of simple Python code and an SQL query
 Examples include generating random numbers, slicing and while loops. It also has a simplified version of the Fortune Teller game created as part of a games project.
