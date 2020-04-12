@@ -1,7 +1,7 @@
 # This code creates a SpartaModules class which is the basis for the SpartaTrainee class
 # It has a hard-coded list of modules taught at Sparta Global
 # The add_module method is encapsulated so that only authorised people can add modules to the list
-# It uses an IF statements to check whether an object is a Sparta Module and also returns the length of a module if it is
+# It uses IF statements to check whether an object is a Sparta Module and also returns the length of a module if it is
 
 
 class SpartaModules:
