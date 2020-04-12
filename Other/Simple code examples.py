@@ -1,5 +1,5 @@
 from random import randrange
-
+import pyodbc
 
 # Palindrome function uses slicing and control flow statements to find define palindromes in a given list
 def palindrome():
@@ -56,6 +56,21 @@ while TRY != 0:
 else:
     print("Sorry. You're out of guesses!")
 
+# connecting to MSSQL via the PYODBC module
+# lists the total orders for each product - only displays products that have orders
+server = "localhost,1433"
+database = "Northwind"
+username = "SA"
+password = "Passw0rd2018"
+
+docker_Northwind = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';'
+                                  'UID='+username+';PWD='+ password)
+
+cursor = docker_Northwind.cursor()
+
+orders = cursor.execute("SELECT ProductName, SUM(UnitsOnOrder) AS 'Total' FROM Products GROUP BY ProductName HAVING SUM(UnitsOnOrder) > 0 ORDER BY 'Total' DESC;").fetchall()
+for x in orders:
+    print(x.ProductName, x.Total)
 
 # nested dictionaries - fortune teller game
 fortune = {

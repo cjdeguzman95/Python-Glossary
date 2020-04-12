@@ -8,5 +8,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="cj1" />
     <orderEntry type="module" module-name="http_postcodes" />
+    <orderEntry type="module" module-name="Coronavirus" />
   </component>
 </module>

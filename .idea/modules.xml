@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Coronavirus/.idea/Coronavirus.iml" filepath="$PROJECT_DIR$/../Coronavirus/.idea/Coronavirus.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python Glossary.iml" filepath="$PROJECT_DIR$/.idea/Python Glossary.iml" />
       <module fileurl="file://$PROJECT_DIR$/../cj1/.idea/cj1.iml" filepath="$PROJECT_DIR$/../cj1/.idea/cj1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../http_postcodes/.idea/http_postcodes.iml" filepath="$PROJECT_DIR$/../http_postcodes/.idea/http_postcodes.iml" />
