@@ -6,7 +6,7 @@ It is comprised of 4 files: person.py, student.py, modules.py and batch.py. The 
 
 ## 2. Data Cleaning
 ##### This shows the code created to clean the dataset used for a Tableau project - openpyxl and xlsx libraries are used
-The Investors worksheet required cleaning so that there was only one column with the unique values. For the purpose of this work and to demonstrate the use of the xlsx library, the cleaned data is inserted into a new workbook.
+The Investors worksheet required cleaning so that there was only one column with the unique values. For the purpose of this work, and to demonstrate the use of the xlsx library, the cleaned data is inserted into a new workbook.
 
 ## 3. Other
 ##### This folder contains examples of simple Python code and an SQL query
