@@ -2,7 +2,7 @@
 #### Technologies: Python, Tableau
 
 This project demonstrates:
-- Cleaning an excel file (see code [here](https://github.com/cjdeguzman95/Python-Glossary/blob/master/Data%20cleaning/dataset_cleaning.py))
+- Cleaning and transforming an excel file (see code [here](https://github.com/cjdeguzman95/Python-Glossary/blob/master/Data%20cleaning/dataset_cleaning.py))
 - Creating a Tableau dashboard (see dashboard [here](https://public.tableau.com/app/profile/cj.de.guzman/viz/Fintechunicornsandwheretofindthem/Fintech))
 
 This project explores fintech data from CB Insights
